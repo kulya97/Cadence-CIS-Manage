@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadence-CIS-Manage", "Cadence-CIS-Manage\Cadence-CIS-Manage.csproj", "{2F695E8E-98B1-419A-A466-DE7ECACE8180}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manage", "Manage\Manage.csproj", "{2B8C5051-0797-4ED7-84FB-9E724E3CF307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F695E8E-98B1-419A-A466-DE7ECACE8180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F695E8E-98B1-419A-A466-DE7ECACE8180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F695E8E-98B1-419A-A466-DE7ECACE8180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F695E8E-98B1-419A-A466-DE7ECACE8180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8C5051-0797-4ED7-84FB-9E724E3CF307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8C5051-0797-4ED7-84FB-9E724E3CF307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8C5051-0797-4ED7-84FB-9E724E3CF307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8C5051-0797-4ED7-84FB-9E724E3CF307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BA901FE7-5653-4CB0-AB9D-45EA2B527C18}
+		SolutionGuid = {E0689F94-5F0C-4F27-AE28-BC35E1C68AC3}
 	EndGlobalSection
 EndGlobal
