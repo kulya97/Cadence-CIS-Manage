@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
 
-namespace Manage
+namespace Manage.Model
 {
     public class BlogContext : DbContext
     {

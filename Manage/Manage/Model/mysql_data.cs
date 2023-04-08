@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Manage
+namespace Manage.Model
 {
 
     public class Blog
