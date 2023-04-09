@@ -18,10 +18,10 @@ namespace Manage.UI
             ids = id;
             WindowStartupLocation = WindowStartupLocation.CenterOwner;//在父窗口中居中
             //InitializeComponent();
-            Blog student = StuDal.SetIdStudent(ids);
+            Resistance student = StuDal.SetIdStudent(ids);
             if (student != null)
             {
-               // StuName.Text = student.Url;
+                // StuName.Text = student.Url;
             }
         }
 
@@ -29,12 +29,12 @@ namespace Manage.UI
         private void UpdateNewStu_Click(object sender, RoutedEventArgs e)
         {
             //学生写姓名
-           // string Name = StuName.Text;
+            // string Name = StuName.Text;
             if (Name != "")
             {
-                Blog student = new Blog();
-                student.Id = ids;
-                student.Url = Name;
+                Resistance student = new Resistance();
+                student.ID = Name;
+                student.Part_Number = Name;
 
                 StuDal.UpdateStu(student);
                 Close();//关闭当前窗口

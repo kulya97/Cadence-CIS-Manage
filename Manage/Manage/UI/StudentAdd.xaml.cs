@@ -37,8 +37,8 @@ namespace Manage.UI
             //学生性别
             if (Name != "")
             {
-                Blog student = new Blog();
-                student.Url = Name;
+                Resistance student = new Resistance();
+                student.Schematic_Part = Name;
                 StuDal.InsertStu(student);
                 Close();//关闭当前窗口
             }

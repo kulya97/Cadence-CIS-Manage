@@ -11,7 +11,7 @@ namespace Manage.Model
         {
             optionsBuilder.UseMySQL("Server=127.0.0.1;Database=myo1db;User=root;Password=213316;");
         }
-        public DbSet<Blog> Blog { get; set; }
-      //  public DbSet<User> User { get; set; }
+        public DbSet<Resistance> Resistance { get; set; }
+        public DbSet<Capacity> Capacity { get; set; }
     }
 }

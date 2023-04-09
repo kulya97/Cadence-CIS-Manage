@@ -14,7 +14,7 @@ namespace Manage
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Blog> ds;
+        public List<Resistance> ds;
         public MainWindow()
         {
             InitializeComponent();
@@ -49,13 +49,13 @@ namespace Manage
                     StuDal.DeleteStu(id);
                 }
             }
-            List<Blog> ds = StuDal.GetStudent().ToList();
+            List<Resistance> ds = StuDal.GetStudent().ToList();
             StudentShow.ItemsSource = ds;
         }
         //刷新页面数据
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
-            List<Blog> ds = StuDal.GetStudent().ToList();
+            List<Resistance> ds = StuDal.GetStudent().ToList();
             StudentShow.ItemsSource = ds;
         }
         //编辑信息

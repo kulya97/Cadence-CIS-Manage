@@ -23,13 +23,10 @@ namespace Manage.Model
         //Sunday,//隔离器
         //Sunday,//传感器
         //Sunday//功能模块
-
     }
 
-    public class Blog
+    public class Resistance : Component
     {
-        public int Id { get; set; }
-        public string Url { get; set; }
     }
     public class Capacity : Component
     {

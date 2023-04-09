@@ -18,12 +18,15 @@
         <Rectangle Height="1" Margin="-352,59,-348,0" Stroke="Black" VerticalAlignment="Top" Width="1500"/>
         <DataGrid x:Name="StudentShow" AutoGenerateColumns="False" CanUserAddRows="False" ColumnWidth="*"  Grid.Column="0" Height="338" VerticalAlignment="Top" Margin="10,83,10,0" MinRowHeight="30" ColumnHeaderHeight="30">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="学生ID" Binding="{Binding Id}"/>
-                <DataGridTextColumn Header="学生姓名" Binding="{Binding StudentName}"/>
-                <DataGridTextColumn Header="性别" Binding="{Binding Gender}"/>
-                <DataGridTextColumn Header="出生年月" Binding="{Binding Birthday}"/>
-                <DataGridTextColumn Header="家庭住址" Binding="{Binding Address}"/>
-                <DataGridTextColumn Header="家长电话" Binding="{Binding PatriarchTel}"/>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="part-num" Binding="{Binding Part_Number}"/>
+                <DataGridTextColumn Header="part-type" Binding="{Binding Part_Type}"/>
+                <DataGridTextColumn Header="sch-part" Binding="{Binding Schematic_Part}"/>
+                <DataGridTextColumn Header="value" Binding="{Binding Value}"/>
+                <DataGridTextColumn Header="des" Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="footprint" Binding="{Binding PCB_Footprint}"/>
+                <DataGridTextColumn Header="pspice" Binding="{Binding PSpice_Model}"/>
+                <DataGridTextColumn Header="stock" Binding="{Binding Stock}"/>
                 <DataGridTemplateColumn Header="操作">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
