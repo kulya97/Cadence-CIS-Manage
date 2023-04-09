@@ -4,7 +4,7 @@ using System.Windows;
 using Manage.DAL;
 using Manage.Model;
 
-namespace Manage
+namespace Manage.UI
 {
     /// <summary>
     /// UpdateStu.xaml 的交互逻辑

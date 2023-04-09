@@ -12,7 +12,7 @@ using System.Windows.Shapes;
 using Manage.DAL;
 using Manage.Model;
 
-namespace Manage
+namespace Manage.UI
 {
     /// <summary>
     /// StudentAdd.xaml 的交互逻辑
