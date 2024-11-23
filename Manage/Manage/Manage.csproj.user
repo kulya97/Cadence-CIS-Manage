@@ -7,21 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="UI\StudentAdd.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UI\UpdateStu.xaml.cs">
+    <Compile Update="Views\DbShowWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Views\DbShowWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\StudentAdd.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UI\UpdateStu.xaml">
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

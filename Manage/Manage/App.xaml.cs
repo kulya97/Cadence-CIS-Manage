@@ -13,6 +13,5 @@ namespace Manage
     /// </summary>
     public partial class App : Application
     {
-
     }
 }
